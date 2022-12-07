@@ -32,3 +32,12 @@ label{
 .gender-div,.lang-div{
 display: inline-block;
 }
+
+.lang-div label,
+.gender-div label{
+    width: auto;
+    margin-right: 10px;
+}
+.radio-check{
+    
+}
