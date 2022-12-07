@@ -5,12 +5,16 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
+    
 }
 form{
-    background-color: antiquewhite;
+    /* background-color: rgb(244, 233, 212); */
     width: fit-content;
     margin: 20px auto;
     padding: 30px;
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
 }
 h1{
     text-align: center;
@@ -39,5 +43,26 @@ display: inline-block;
     margin-right: 10px;
 }
 .radio-check{
-    
+ margin-bottom: 20px;   
+
+}
+.btn-container{
+    text-align: center;
+}
+.btn-container input{
+    width: 100px;
+    border-radius: none;
+    border: none;
+    background-color: hsl(399, 100%, 70%);
+    padding: 10px;
+}
+.btn-container input:hover{
+    background-color: darksalmon;
+    font-weight: 500;
+    cursor: pointer;
+}
+.textarea-div *{
+vertical-align: middle;
+
+
 }
