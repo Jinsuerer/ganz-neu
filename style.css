@@ -4,10 +4,31 @@
     box-sizing: border-box;
 }
 body{
-    font-family: ;
+    font-family: 'Raleway', sans-serif;
 }
 form{
     background-color: antiquewhite;
     width: fit-content;
     margin: 20px auto;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+label{
+    display: inline-block;
+    width: 100px;
+
+}
+.inputs{
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.gender-div,.lang-div{
+display: inline-block;
 }
